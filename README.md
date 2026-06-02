@@ -3,7 +3,7 @@
 Welcome to the World of Python 
 Python is one of the most popular programming languages in the world. It is simple, powerful, and easy to learn.
 
-Why Python?
+
 Easy to read and write
 Beginner-friendly syntax
 Used in Artificial Intelligence and Machine Learning
