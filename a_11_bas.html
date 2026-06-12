@@ -12,6 +12,7 @@
 
         <input type="text" id="username" placeholder="Spongebob" minlength="6" maxlength="25" required>
 
+        <br>
         <label for="password">password</label>
         <input type="password" id="password" name="password" required><br> 
 
@@ -29,14 +30,29 @@
             oninput="this.value = this.value.replace(/[^0-9\-]/g, '')"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             title="Format: 123-456-7890"
-
             required>
+
+            <br>
+        <label for="b.day">Birthday:</label> 
+        <input type="date" id="b.day" name="b.day" required><br>   
+        
+
+        <label for="title"></label>
+        
+        <label for="Mr">Mr.</label>
+        <input type="radio" id="Mr" name="title" value="mr" required>
+        <label for="Ms">Ms.</label>
+        <input type="radio" id="Ms" name="title" value="ms" required>           
+
+        <br>
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="100" required><br>
 
         
 
 
         <input type="reset">
-        <br><br>
+        <br>
         
         <input type="submit">
         
