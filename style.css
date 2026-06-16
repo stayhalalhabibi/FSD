@@ -6,4 +6,10 @@ h1{
 p{
     border-bottom: 3px solid rgb(204, 14, 14);
     border-top: 3px solid yellow;
+    border-left: 3px dotted rgb(13, 10, 229);
+    border-right: 3px dashed  green;
+    
+    border-radius: 10px;
+
+
 }
