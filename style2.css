@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(203, 170, 127);
+}
+#p1{
+    color: brown;
+}
+h1{
+    color: rgb(102, 222, 255);
+}
+#p2{
+    color: #59ff5f;
+}
+#p3{
+    color: hsl(302, 84%, 46%);
+}
