@@ -1,15 +1,36 @@
-body{
-    background-color: rgb(203, 170, 127);
+.box{
+    width:150px;
+    height:150px;
+    background:orange;
+    color:white;
+    text-align:center;
+    line-height:150px;
 }
-#p1{
-    color: brown;
+
+
+.relative-box{
+
+    position:relative;
+
+    left:400px;
+
+    top:50px;
 }
-h1{
-    color: rgb(102, 222, 255);
+.container{
+    display:flex;
 }
-#p2{
-    color: #59ff5f;
+
+.boxA{
+    width:250px;
+    height:250px;
+    background:red;
+
+    position:relative;
+    left:500px;
 }
-#p3{
-    color: hsl(302, 84%, 46%);
+
+.boxB{
+    width:150px;
+    height:150px;
+    background:blue;
 }
