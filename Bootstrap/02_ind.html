@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halal Matrimony</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background:#f8f9fa;
+        }
+
+        .hero{
+            background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+            url('https://images.unsplash.com/photo-1519741497674-611481863552');
+            background-size:cover;
+            background-position:center;
+            height:90vh;
+            color:white;
+            display:flex;
+            align-items:center;
+        }
+
+        .profile-card img{
+            height:250px;
+            object-fit:cover;
+        }
+
+        .plan{
+            transition:0.4s;
+        }
+
+        .plan:hover{
+            transform:translateY(-10px);
+        }
+
+        footer{
+            background:#212529;
+            color:white;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+
+<a class="navbar-brand" href="#">💍 Halal Matrimony</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse"
+data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Profiles</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Membership</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+</ul>
+</div>
+
+</div>
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+<div class="container text-center">
+
+<h1 class="display-3 fw-bold">
+Find Your Perfect Life Partner
+</h1>
+
+<p class="lead">
+Trusted Matrimonial Platform
+</p>
+
+<div class="row justify-content-center mt-4">
+
+<div class="col-md-3">
+<select class="form-select">
+<option>Looking For</option>
+<option>Bride</option>
+<option>Groom</option>
+</select>
+</div>
+
+<div class="col-md-3">
+<input type="text" class="form-control"
+placeholder="City">
+</div>
+
+<div class="col-md-2">
+<button class="btn btn-danger w-100">
+Search
+</button>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- Profiles -->
+
+<section class="container py-5">
+
+<h2 class="text-center mb-5">Featured Profiles</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card profile-card">
+<img src="https://picsum.photos/300/300?1"
+class="card-img-top">
+<div class="card-body">
+<h5>Fatima, 24</h5>
+<p>Doctor • Delhi</p>
+<button class="btn btn-primary">
+View Profile
+</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card profile-card">
+<img src="https://picsum.photos/300/300?2"
+class="card-img-top">
+<div class="card-body">
+<h5>Ahmed, 27</h5>
+<p>Software Engineer • Mumbai</p>
+<button class="btn btn-primary">
+View Profile
+</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card profile-card">
+<img src="https://picsum.photos/300/300?3"
+class="card-img-top">
+<div class="card-body">
+<h5>Ayesha, 23</h5>
+<p>Teacher • Lucknow</p>
+<button class="btn btn-primary">
+View Profile
+</button>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- Membership -->
+
+<section class="container py-5">
+
+<h2 class="text-center mb-5">
+Membership Plans
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card text-center plan">
+<div class="card-body">
+<h3>Basic</h3>
+<h1>₹299</h1>
+<p>1 Month Access</p>
+<button class="btn btn-outline-primary">
+Choose
+</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-center border-primary plan">
+<div class="card-body">
+<h3>Premium</h3>
+<h1>₹999</h1>
+<p>6 Month Access</p>
+<button class="btn btn-primary">
+Choose
+</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card text-center plan">
+<div class="card-body">
+<h3>VIP</h3>
+<h1>₹1999</h1>
+<p>1 Year Access</p>
+<button class="btn btn-outline-primary">
+Choose
+</button>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+
+<section class="container py-5">
+
+<h2 class="text-center mb-4">
+Contact Us
+</h2>
+
+<form>
+
+<div class="mb-3">
+<input type="text"
+class="form-control"
+placeholder="Your Name">
+</div>
+
+<div class="mb-3">
+<input type="email"
+class="form-control"
+placeholder="Your Email">
+</div>
+
+<div class="mb-3">
+<textarea class="form-control"
+rows="5"
+placeholder="Message"></textarea>
+</div>
+
+<button class="btn btn-success">
+Send Message
+</button>
+
+</form>
+
+</section>
+
+<footer class="text-center">
+<h5>💍 Halal Matrimony</h5>
+<p>© 2026 All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
