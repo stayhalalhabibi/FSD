@@ -1,12 +1,11 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     background: linear-gradient(135deg,#adc1cb,#3fb96a,#0c3317);
-    min-height: 100vh;
-    body{
+    min-height: 100vh;  
     display:flex;
     justify-content:center;
     align-items:center;
-}
+
 
 }
 h1{
