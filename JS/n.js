@@ -9,8 +9,23 @@
 
 
 
-const username = "";
-const salamMsg = document.getElementById("salam-Msg");
+//const fruits = document.getElementsByClassName("fruits");
 
-salamMsg.textContent += username === "" ? `Guest` : username;
+// fruits[2].style.backgroundColor = "red";
+
+// for(let fruit of fruits){
+   // fruit.style.backgroundColor = "yellow";
+// }
+
+// Array.from(fruits).forEach(fruits => {
+   // fruits.style.backgroundColor = "red"
+// });
+
+
+const h4Elements = document.getElementsByTagName("h4");
+// h4Elements[0].style.backgroundColor = "green";
+// h4Elements[1].style.backgroundColor = "blue";;
+
+
+// console.log(h4Elements);
 

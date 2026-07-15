@@ -1,0 +1,36 @@
+body{
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    color:hsl(0, 0%, 20%);
+    
+/* hue, saturation, light) 
+u
+sdes0°   = Red
+60°  = Yellow
+120° = Green
+180° = Cyan
+240° = Blue
+300° = Purple
+360° = Red 
+
+100% = Full color
+0%   = No color*/
+}
+.choices{
+    margin: 30px;
+}
+.choices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 15px;
+    background-color: green;
+    cur
+}
