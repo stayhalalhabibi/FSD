@@ -1,0 +1,157 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ffcb05,#3b4cca,#1b1b1b);
+    padding:20px;
+}
+
+/* Main Card */
+
+.container{
+    width:420px;
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(18px);
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+    border:1px solid rgba(255,255,255,.2);
+}
+
+/* Heading */
+
+h1{
+    color:white;
+    font-size:2rem;
+    margin-bottom:20px;
+    letter-spacing:1px;
+}
+
+/* Input */
+
+input{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    outline:none;
+    font-size:17px;
+    margin-bottom:18px;
+    text-align:center;
+}
+
+/* Button */
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#ffcb05;
+    color:#2a2a2a;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#ffd93d;
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0,.3);
+}
+
+/* Pokemon Image */
+
+#pokemonSprite{
+    width:220px;
+    margin:25px auto;
+    display:none;
+    transition:.4s;
+    animation:float 2s infinite ease-in-out;
+}
+
+#pokemonSprite:hover{
+    transform:scale(1.1) rotate(5deg);
+}
+
+/* Pokemon Info */
+
+#pokemonInfo{
+    margin-top:20px;
+    color:white;
+}
+
+#pokemonInfo h2{
+    margin-bottom:12px;
+    text-transform:capitalize;
+}
+
+#pokemonInfo p{
+    margin:8px 0;
+    font-size:17px;
+}
+
+/* Loading */
+
+.loading{
+    color:#fff;
+    font-size:18px;
+    margin-top:15px;
+}
+
+/* Error */
+
+.error{
+    color:#ff4b4b;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+/* Floating Animation */
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:500px){
+
+.container{
+    width:100%;
+}
+
+h1{
+    font-size:1.7rem;
+}
+
+#pokemonSprite{
+    width:180px;
+}
+
+}
